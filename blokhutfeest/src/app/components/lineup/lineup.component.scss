@@ -1,0 +1,14 @@
+.lineup {
+  padding: 2rem 1rem;
+  text-align: center;
+  .artists {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+  @media (min-width: 600px) {
+    .artists {
+      grid-template-columns: repeat(3, 1fr);
+    }
+  }
+}
